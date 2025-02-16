@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdd8e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.question {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: #e91e63;
+    color: white;
+}
+
+#noButton {
+    background-color: #2196f3;
+    color: white;
+}
+
+.happy-icon {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.success-text {
+    font-size: 24px;
+    color: #333;
+}
